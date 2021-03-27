@@ -1,0 +1,9 @@
+@import '../../../styles/variables';
+
+.common-layout {
+  .home-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}

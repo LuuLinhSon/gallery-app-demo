@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+.header-layout {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  background-color: $silver;
+  align-items: center;
+  padding-left: 30px;
+
+  .label {
+    font-size: 20px;
+    font-weight: bold;
+    color: $blue;
+
+    &-effect {
+      color: $info;
+    }
+  }
+}

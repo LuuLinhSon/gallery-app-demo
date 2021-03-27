@@ -1,0 +1,9 @@
+@import './variables.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './pluggin/react-toastify.scss';
+
+.full-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

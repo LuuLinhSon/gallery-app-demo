@@ -1,0 +1,46 @@
+.grid-image {
+  margin-top: 50px;
+  .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    :hover {
+      cursor: pointer;
+      opacity: 0.3;
+    }
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+  .media {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .middle-liked {
+    transition: 0.5s ease;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
